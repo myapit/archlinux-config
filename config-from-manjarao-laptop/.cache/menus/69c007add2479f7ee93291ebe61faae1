@@ -1,0 +1,1729 @@
+1.2
+lxde-applications.menu+hidden
+10
+D/home/mhafeez/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/home/mhafeez/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/etc/xdg/menus/applications-merged
+D/home/mhafeez/.config/menus/applications-merged
+F/home/mhafeez/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+Deepin;MATE;Unity;
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
+0
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+0
+-xfce4-about.desktop
+About Xfce
+Information about the Xfce Desktop Environment
+help-about
+
+5
+
+xfce4-about
+0
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-org.gnome.FileRoller.desktop
+Archive Manager
+Create and modify an archive
+org.gnome.ArchiveManager
+
+5
+
+file-roller %U
+2
+-5
+file-roller
+
+GTK;GNOME;Utility;Archiving;Compression;X-GNOME-Utilities
+zip,tar,extract,unpack
+-atom.desktop
+Atom
+A hackable text editor for the 21st Century
+atom
+
+5
+Text Editor
+/usr/bin/atom %F
+2
+0
+
+
+GNOME;GTK;Utility;TextEditor;Development
+
+-clipit.desktop
+ClipIt
+Clipboard Manager
+clipit-trayicon
+
+5
+
+clipit
+0
+0
+
+
+GTK;GNOME;Application;Utility
+
+-code-oss.desktop
+Code - OSS
+Code Editing. Redefined.
+code-oss
+
+5
+Text Editor
+code-oss --unity-launch %F
+0
+0
+
+
+Utility;TextEditor;Development;IDE
+vscode
+-compton.desktop
+compton
+Compositor for X11
+compton
+
+5
+X compositor
+compton
+0
+0
+/usr/bin/compton
+
+Utility
+
+-conky-manager.desktop
+Conky Manager
+
+conky-manager
+
+5
+Conky Theme Manager
+conky-manager 
+0
+0
+
+
+Utility
+
+-dde-file-manager.desktop
+Deepin File Manager
+Browse the file system
+dde-file-manager
+
+5
+File Manager
+/usr/bin/dde-file-manager -n %u
+2
+0
+
+
+Utility
+
+-exo-file-manager.desktop
+File Manager
+Browse the file system
+system-file-manager
+
+5
+
+exo-open --launch FileManager %u
+2
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-org.gnome.Nautilus.desktop
+Files
+Access and organize files
+org.gnome.Nautilus
+
+5
+
+nautilus --new-window %U
+2
+0
+
+
+GNOME;GTK;Utility;Core;FileManager
+folder,manager,explore,disk,filesystem
+-hplip.desktop
+HP Device Manager
+View device status, ink levels and perform maintenance.
+/usr/share/hplip/data/images/128x128/hp_logo.png
+
+5
+Printer Management Application
+hp-toolbox
+0
+0
+
+
+Application;Utility
+
+-kvantummanager.desktop
+Kvantum Manager
+A simple GUI for installing, selecting and manipulating Kvantum themes
+kvantum
+
+5
+
+kvantummanager
+0
+0
+
+
+Qt;Utility;Settings;DesktopSettings;LXQt;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;X-GNOME-PersonalSettings
+
+-open-fuse-iso.desktop
+Mount/Unmount image
+(Requires target) Mount/Unmount a disk image
+application-x-cd-image
+
+5
+
+open-fuse-iso %f
+4
+0
+
+
+Utility
+iso,img,nrg,mdf,bin
+-mousepad.desktop
+Mousepad
+Simple Text Editor
+accessories-text-editor
+
+5
+Text Editor
+mousepad %F
+2
+0
+
+
+Utility;TextEditor;GTK
+
+-nitrogen.desktop
+nitrogen
+Browse and set desktop backgrounds
+nitrogen
+
+5
+Wallpaper Setter
+nitrogen
+0
+0
+
+
+Utility;GTK;DesktopSettings
+background,desktop
+-lxshortcut.desktop
+Shortcut Editor
+Create new or change existing desktop entry
+applications-other
+
+5
+
+lxshortcut -i %f
+6
+0
+
+
+Utility;GTK
+
+-exo-terminal-emulator.desktop
+Terminal Emulator
+Use the command line
+utilities-terminal
+
+5
+
+exo-open --launch TerminalEmulator
+2
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-vim.desktop
+Vim
+Edit text files
+gvim
+
+5
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+-xarchiver.desktop
+Xarchiver
+A GTK+ only archive manager
+xarchiver
+
+5
+Archive manager
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Compression;Utility
+GTK,android,archiver,archiving,comic book,compression,front end,frontend,7-zip,7z,7za,7zip,7zr,apk,ar,arj,bunzip2,bz2,bzip2,cbz,compress,cpio,deb,epub,gtar,gunzip,gz,gzip,jar,lha,lrz,lrzip,lsar,lz,lz4,lzh,lzip,lzma,lzo,lzop,oxt,rar,rar4,rar5,rpm,tar,unar,unarchiver,unarj,unrar,unzip,xpi,xz,zip,zst,Zstandard,zstd
+-xfburn.desktop
+Xfburn
+CD and DVD burning application
+stock_xfburn
+
+5
+Disk Burning
+xfburn
+2
+0
+xfburn
+
+X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility
+
+
++Education
+Education
+
+applications-science
+lxde-education.directory
+2
+0
+-libreoffice-math.desktop
+LibreOffice Math
+Create and edit scientific formulas and equations by using Math.
+libreoffice-math
+
+5
+Formula Editor
+libreoffice --math %U
+2
+0
+
+
+Office;Spreadsheet;Education;Science;Math;X-Red-Hat-Base;X-MandrivaLinux-Office-Other
+Equation,OpenDocument Formula,Formula,odf,MathML
+
++Games
+Games
+Games and amusements
+applications-games
+lxde-game.directory
+2
+4
+
++Graphics
+Graphics
+Graphics applications
+applications-graphics
+lxde-graphics.directory
+2
+0
+-gcolor2.desktop
+Gcolor2
+Choose colours from palette or screen
+/usr/share/pixmaps/gcolor2/icon.png
+
+5
+A simple GTK+2 color selector
+gcolor2
+2
+0
+
+
+Graphics
+select,pick,detect,choose,colors,palette
+-gimp.desktop
+GNU Image Manipulation Program
+Create images and edit photographs
+gimp
+
+5
+Image Editor
+gimp-2.10 %U
+2
+0
+gimp-2.10
+
+Graphics;2DGraphics;RasterGraphics;GTK
+GIMP,graphic,design,illustration,painting
+-libreoffice-draw.desktop
+LibreOffice Draw
+Create and edit drawings, flow charts, and logos by using Draw.
+libreoffice-draw
+
+5
+Drawing Program
+libreoffice --draw %U
+2
+0
+
+
+Office;FlowChart;Graphics;2DGraphics;VectorGraphics;X-Red-Hat-Base;X-MandrivaLinux-Office-Drawing
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Microsoft Visio,Corel Draw,cdr,odg,svg,pdf,vsd
+-viewnior.desktop
+Viewnior
+Elegant Image Viewer
+viewnior
+
+5
+
+viewnior %F
+2
+0
+viewnior
+
+GNOME;GTK;Graphics;Viewer
+Image,Picture,Slideshow
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+2
+0
+-bssh.desktop
+Avahi SSH Server Browser
+Browse for Zeroconf-enabled SSH Servers
+network-wired
+
+5
+
+/usr/bin/bssh
+0
+0
+
+
+GNOME;Network
+
+-bvnc.desktop
+Avahi VNC Server Browser
+Browse for Zeroconf-enabled VNC Servers
+network-wired
+
+5
+
+/usr/bin/bvnc
+0
+0
+
+
+GNOME;Network
+
+-chromium.desktop
+Chromium
+Access the Internet
+chromium
+
+5
+Web Browser
+/usr/bin/chromium %U
+2
+0
+
+
+Network;WebBrowser
+
+-deluge.desktop
+Deluge
+Download and share files over BitTorrent
+deluge
+
+5
+BitTorrent Client
+deluge-gtk %U
+2
+0
+deluge-gtk
+
+Network;FileTransfer;P2P;GTK
+
+-elinks.desktop
+ELinks
+Browse the World Wide Web in Text-Mode
+html
+
+5
+Web Browser
+/usr/bin/elinks %u
+1
+0
+
+
+Application;Network
+
+-firefox.desktop
+Firefox
+Browse the Web
+firefox
+
+5
+Web Browser
+/usr/lib/firefox/firefox %u
+2
+0
+
+
+Network;WebBrowser
+web,browser,internet
+-io.github.Hexchat.desktop
+HexChat
+Chat with other people online
+hexchat
+
+5
+IRC Client
+hexchat --existing %U
+2
+0
+
+
+GTK;Network;IRCClient
+IM,Chat
+-links.desktop
+Links
+
+links_32x32.xpm
+
+5
+
+xlinks -g
+0
+0
+
+
+Network;WebBrowser
+
+-exo-mail-reader.desktop
+Mail Reader
+Read your email
+emblem-mail
+
+5
+
+exo-open --launch MailReader %u
+2
+8
+
+
+Network;X-XFCE;X-Xfce-Toplevel
+
+-palemoon.desktop
+Pale Moon
+Browse the World Wide Web
+palemoon
+
+5
+Web Browser
+palemoon %u
+2
+0
+
+
+Network;WebBrowser;Internet
+Internet,WWW,Browser,Web,Explorer
+-putty.desktop
+PuTTY
+A highly configurable ssh/telnet/serial console program
+putty
+
+5
+SSH/Telnet/Serial Client
+putty %u
+0
+0
+
+
+Application;Network;Remote
+
+-org.remmina.Remmina.desktop
+Remmina
+Connect to remote desktops
+org.remmina.Remmina
+
+5
+Remote Desktop Client
+/usr/bin/remmina
+0
+0
+/usr/bin/remmina
+
+GTK;GNOME;X-GNOME-NetworkSettings;Network
+remote desktop,rdp,vnc,nx,ssh,spice,xdmcp
+-exo-web-browser.desktop
+Web Browser
+Browse the web
+web-browser
+
+5
+
+exo-open --launch WebBrowser %u
+2
+8
+
+
+Network;X-XFCE;X-Xfce-Toplevel
+
+-zenmap.desktop
+Zenmap
+A cross-platform GUI for the Nmap Security Scanner.
+/usr/share/zenmap/pixmaps/zenmap.png
+
+5
+GUI Port Scanner
+zenmap %F
+0
+0
+zenmap
+
+Application;Network;Security
+network,scan,scanner,IP,security
+-zenmap-root.desktop
+Zenmap (as root)
+A cross-platform GUI for the Nmap Security Scanner.
+/usr/share/zenmap/pixmaps/zenmap.png
+
+5
+GUI Port Scanner
+/usr/share/zenmap/su-to-zenmap.sh %F
+0
+0
+/usr/share/zenmap/su-to-zenmap.sh
+
+Application;Network;Security
+network,scan,scanner,IP,security
+
++Office
+Office
+Office Applications
+applications-office
+lxde-office.directory
+2
+0
+-epdfview.desktop
+ePDFViewer
+Lightweight PDF document viewer
+epdfview
+
+5
+PDF Viewer
+epdfview %f
+0
+0
+
+
+Viewer;Office;GTK
+
+-libreoffice-startcenter.desktop
+LibreOffice
+The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.
+libreoffice-startcenter
+
+5
+Office
+libreoffice %U
+2
+0
+
+
+Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other
+
+-libreoffice-base.desktop
+LibreOffice Base
+Manage databases, create queries and reports to track and manage your information by using Base.
+libreoffice-base
+
+5
+Database Development
+libreoffice --base %U
+2
+0
+
+
+Office;Database;X-Red-Hat-Base;X-MandrivaLinux-MoreApplications-Databases
+Data,SQL
+-libreoffice-calc.desktop
+LibreOffice Calc
+Perform calculations, analyze information and manage lists in spreadsheets by using Calc.
+libreoffice-calc
+
+5
+Spreadsheet
+libreoffice --calc %U
+2
+0
+
+
+Office;Spreadsheet;X-Red-Hat-Base;X-MandrivaLinux-Office-Spreadsheets
+Accounting,Stats,OpenDocument Spreadsheet,Chart,Microsoft Excel,Microsoft Works,OpenOffice Calc,ods,xls,xlsx
+-libreoffice-draw.desktop
+LibreOffice Draw
+Create and edit drawings, flow charts, and logos by using Draw.
+libreoffice-draw
+
+5
+Drawing Program
+libreoffice --draw %U
+2
+0
+
+
+Office;FlowChart;Graphics;2DGraphics;VectorGraphics;X-Red-Hat-Base;X-MandrivaLinux-Office-Drawing
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Microsoft Visio,Corel Draw,cdr,odg,svg,pdf,vsd
+-libreoffice-impress.desktop
+LibreOffice Impress
+Create and edit presentations for slideshows, meeting and Web pages by using Impress.
+libreoffice-impress
+
+5
+Presentation
+libreoffice --impress %U
+2
+0
+
+
+Office;Presentation;X-Red-Hat-Base;X-MandrivaLinux-Office-Presentations
+Slideshow,Slides,OpenDocument Presentation,Microsoft PowerPoint,Microsoft Works,OpenOffice Impress,odp,ppt,pptx
+-libreoffice-math.desktop
+LibreOffice Math
+Create and edit scientific formulas and equations by using Math.
+libreoffice-math
+
+5
+Formula Editor
+libreoffice --math %U
+2
+0
+
+
+Office;Spreadsheet;Education;Science;Math;X-Red-Hat-Base;X-MandrivaLinux-Office-Other
+Equation,OpenDocument Formula,Formula,odf,MathML
+-libreoffice-writer.desktop
+LibreOffice Writer
+Create and edit text and images in letters, reports, documents and Web pages by using Writer.
+libreoffice-writer
+
+5
+Word Processor
+libreoffice --writer %U
+2
+0
+
+
+Office;WordProcessor;X-Red-Hat-Base;X-MandrivaLinux-Office-Wordprocessors
+Text,Letter,Fax,Document,OpenDocument Text,Microsoft Word,Microsoft Works,Lotus WordPro,OpenOffice Writer,CV,odt,doc,docx,rtf
+
++Other
+Other
+Applications that did not fit in other categories
+applications-other
+lxde-other.directory
+2
+0
+-gcr-prompter.desktop
+Access Prompt
+Unlock access to passwords and other secrets
+security-medium
+
+5
+
+/usr/lib/gcr-prompter
+4
+0
+
+
+
+
+-indicator-cpufreq.desktop
+CPU Frequency Scaling Indicator
+An indicator for monitoring and switching CPU frequency scaling
+indicator-cpufreq-50
+
+5
+
+indicator-cpufreq
+0
+0
+
+
+
+
+-geoclue-demo-agent.desktop
+Geoclue Demo agent
+
+mark-location-symbolic
+
+5
+Demo geoclue agent
+/usr/lib/geoclue-2.0/demos/agent
+4
+-3
+
+
+
+geolocation
+-hp-uiscan.desktop
+hp-uiscan
+
+/usr/share/icons/Humanity/devices/48/printer.svg
+
+5
+
+/usr/bin/hp-uiscan
+0
+0
+
+
+
+
+-i3.desktop
+i3
+improved dynamic tiling window manager
+
+
+5
+A dynamic tiling window manager
+i3
+4
+0
+
+
+
+
+-libreoffice-xsltfilter.desktop
+LibreOffice XSLT based filters
+
+
+
+5
+XSLT based filters
+libreoffice %U
+6
+0
+
+
+
+
+-markdown_previewer.desktop
+Markdown previewer
+Preview Markdown file
+
+
+5
+
+markdown_previewer
+4
+0
+
+
+
+
+-nm-applet.desktop
+Network
+Manage your network connections
+nm-device-wireless
+
+5
+
+nm-applet
+4
+-7
+
+
+
+
+-userapp-Pale Moon.desktop
+Pale Moon
+Custom definition for Pale Moon
+
+
+3
+
+/usr/lib/palemoon/palemoon %u
+4
+0
+
+
+
+
+-polkit-gnome-authentication-agent-1.desktop
+PolicyKit Authentication Agent
+PolicyKit Authentication Agent
+
+
+5
+
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+4
+2
+
+
+
+
+-remmina-file.desktop
+Remmina Connect
+Access remote desktops with Remmina
+org.remmina.Remmina
+
+5
+
+/usr/bin/remmina --connect %U
+6
+0
+/usr/bin/remmina
+
+
+
+-remmina-gnome.desktop
+remmina-gnome
+Remina Kiosk
+
+
+5
+
+remmina-gnome
+4
+0
+
+
+
+
+-nautilus-autorun-software.desktop
+Run Software
+
+application-x-executable
+
+5
+
+nautilus-autorun-software %u
+6
+0
+nautilus-autorun-software
+
+
+
+-userapp-Thunderbird.desktop
+Thunderbird
+Custom definition for Thunderbird
+
+
+3
+
+/usr/lib/thunderbird/thunderbird %u
+4
+0
+
+
+
+
+-gcr-viewer.desktop
+View file
+
+
+
+5
+
+/usr/bin/gcr-viewer
+4
+0
+
+
+
+
+-geoclue-where-am-i.desktop
+Where am I?
+Find your current location
+mark-location-symbolic
+
+5
+Demo geolocation application
+/usr/lib/geoclue-2.0/demos/where-am-i
+5
+0
+
+
+
+geolocation
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+2
+0
+-atom.desktop
+Atom
+A hackable text editor for the 21st Century
+atom
+
+5
+Text Editor
+/usr/bin/atom %F
+2
+0
+
+
+GNOME;GTK;Utility;TextEditor;Development
+
+-code-oss.desktop
+Code - OSS
+Code Editing. Redefined.
+code-oss
+
+5
+Text Editor
+code-oss --unity-launch %F
+0
+0
+
+
+Utility;TextEditor;Development;IDE
+vscode
+-electron.desktop
+Electron
+
+electron
+
+5
+
+electron %u
+2
+0
+
+
+Development;GTK
+
+-gtk3-widget-factory.desktop
+Widget Factory
+A showcase for GTK+ widgets, designed for testing themes.
+gtk3-widget-factory
+
+5
+
+gtk3-widget-factory
+6
+0
+
+
+Development;GTK
+
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+2
+0
+-org.gnome.Cheese.desktop
+Cheese
+Take photos and videos with your webcam, with fun graphical effects
+org.gnome.Cheese
+
+5
+Webcam Booth
+cheese
+2
+0
+
+
+GNOME;AudioVideo;Video;Recorder
+photo,video,webcam
+-deepin-movie.desktop
+Deepin Movie
+Play your video collection
+deepin-movie
+
+5
+Movie
+deepin-movie %U
+2
+0
+
+
+AudioVideo;Player
+Player,Movie,Theater,Theatre,Video
+-mpv.desktop
+mpv Media Player
+Play movies and songs
+mpv
+
+5
+Multimedia player
+mpv --player-operation-mode=pseudo-gui -- %U
+0
+0
+mpv
+
+AudioVideo;Audio;Video;Player;TV
+
+-qv4l2.desktop
+Qt V4L2 test Utility
+Allow testing Video4Linux devices
+qv4l2
+
+5
+
+qv4l2
+0
+0
+
+
+AudioVideo
+video,grabber,V4L
+-qvidcap.desktop
+Qt V4L2 video capture utility
+Viewer for video capture
+qvidcap
+
+5
+
+qvidcap
+0
+0
+
+
+AudioVideo
+video,grabber,V4L
+-vlc.desktop
+VLC media player
+Read, capture, broadcast your multimedia streams
+vlc
+
+5
+Media player
+/usr/bin/vlc --started-from-file %U
+0
+0
+/usr/bin/vlc
+
+AudioVideo;Player;Recorder
+Player,Capture,DVD,Audio,Video,Server,Broadcast
+-volumeicon.desktop
+Volume Icon
+Lightweight volume control for the systray
+multimedia-volume-control
+
+5
+
+volumeicon
+0
+0
+
+
+GTK;AudioVideo;Audio;Mixer
+
+-xfburn.desktop
+Xfburn
+CD and DVD burning application
+stock_xfburn
+
+5
+Disk Burning
+xfburn
+2
+0
+xfburn
+
+X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility
+
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+0
+-avahi-discover.desktop
+Avahi Zeroconf Browser
+Browse for Zeroconf services available on your network
+network-wired
+
+5
+
+/usr/bin/avahi-discover
+0
+0
+
+
+GNOME;System
+
+-dde-computer.desktop
+Computer
+Show basic info of the computer.
+computer
+
+5
+Computer
+gio open computer:///
+0
+32
+
+
+System
+
+-conky.desktop
+conky
+
+conky-logomark-violet
+
+5
+
+conky --daemonize --pause=1
+0
+0
+
+
+System;Monitor
+
+-deepin-terminal.desktop
+Deepin Terminal
+Use the command line
+deepin-terminal
+
+5
+Terminal
+deepin-terminal
+2
+0
+deepin-terminal
+
+GNOME;GTK;DDE;Utility;System;TerminalEmulator
+shell,prompt,command,commandline
+-pcmanfm.desktop
+File Manager PCManFM
+Browse the file system and manage the files
+system-file-manager
+
+5
+File Manager
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-gparted.desktop
+GParted
+Create, reorganize, and delete partitions
+gparted
+
+5
+Partition Editor
+/usr/bin/gparted %f
+2
+0
+
+
+GNOME;System;Filesystem
+Partition
+-htop.desktop
+Htop
+Show System Processes
+htop
+
+5
+Process Viewer
+htop
+1
+0
+
+
+ConsoleOnly;System
+system,process,task
+-isousb.desktop
+Isousb
+Copy an ISO to an USB key
+gnome-dev-removable-usb
+
+5
+
+gksu isousb
+0
+0
+
+
+System;Utility
+
+-gtk-lshw.desktop
+LSHW
+HardWare LiSter
+/usr/share/lshw/artwork/logo.svg
+
+5
+
+/usr/sbin/gtk-lshw
+0
+0
+
+
+Application;System;X-Red-Hat-Base;X-Fedora
+
+-cups.desktop
+Manage Printing
+CUPS Web Interface
+cups
+
+5
+
+/usr/bin/xdg-open http://localhost:631/
+0
+0
+
+
+System;Printing;HardwareSettings;X-Red-Hat-Base
+
+-manjaro-hello.desktop
+Manjaro Hello
+A tool providing access to documentation and support for new Manjaro users.
+manjaro
+
+5
+
+/usr/bin/manjaro-hello
+0
+0
+
+
+GNOME;GTK;System
+
+-ranger.desktop
+ranger
+Launches the ranger file manager
+utilities-terminal
+
+5
+
+ranger
+1
+0
+
+
+ConsoleOnly;System;FileTools;FileManager
+
+-pamac-installer.desktop
+Software Installer
+Install selected software on the system
+system-software-install
+
+5
+
+pamac-installer %F
+6
+0
+
+
+System
+
+-dde-trash.desktop
+Trash
+Open trash.
+user-trash
+
+5
+Open Trash.
+gio open trash:///
+0
+32
+
+
+System
+
+-urxvt.desktop
+urxvt
+An unicode capable rxvt clone
+utilities-terminal
+
+5
+
+urxvt
+0
+0
+
+
+System;TerminalEmulator
+
+-urxvtc.desktop
+urxvt (client)
+An unicode capable rxvt clone client for urxvtd
+utilities-terminal
+
+5
+
+urxvtc
+0
+0
+
+
+System;TerminalEmulator
+
+-urxvt-tabbed.desktop
+urxvt (tabbed)
+An unicode capable and tabbed rxvt clone
+utilities-terminal
+
+5
+
+urxvt-tabbed
+0
+0
+
+
+System;TerminalEmulator
+
+-uxterm.desktop
+UXTerm
+xterm wrapper for Unicode environments
+xterm-color_48x48
+
+5
+
+uxterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+xterm-color_48x48
+
+5
+
+xterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+
++Universal Access
+Universal Access
+Universal Access Settings
+preferences-desktop-accessibility
+lxde-utility-accessibility.directory
+2
+4
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+0
+-org.manjaro.pamac.manager.desktop
+Add/Remove Software
+Add or remove software installed on the system
+system-software-install
+
+5
+
+pamac-manager
+6
+0
+
+
+GNOME;GTK;System;Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-pamac-manager.desktop
+Add/Remove Software
+Add or remove software installed on the system
+system-software-install
+
+5
+
+pamac-manager
+2
+0
+
+
+GNOME;GTK;System;Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-nm-connection-editor.desktop
+Advanced Network Configuration
+Manage and change your network connection settings
+preferences-system-network
+
+5
+
+nm-connection-editor
+2
+0
+
+
+GNOME;GTK;Settings;X-GNOME-NetworkSettings
+
+-arandr.desktop
+ARandR
+
+display
+
+5
+Screen Settings
+arandr
+2
+0
+
+
+Settings;HardwareSettings
+
+-blueman-adapters.desktop
+Bluetooth Adapters
+Set Bluetooth Adapter Properties
+blueman-device
+
+5
+
+blueman-adapters
+2
+72
+
+
+X-XFCE;Settings;HardwareSettings;X-XFCE-SettingsDialog;GTK
+
+-blueman-manager.desktop
+Bluetooth Manager
+Blueman Bluetooth Manager
+blueman
+
+5
+
+blueman-manager
+2
+0
+
+
+GTK;GNOME;Settings;HardwareSettings
+
+-lxappearance.desktop
+Customize Look and Feel
+Customizes look and feel of your desktop and applications
+preferences-desktop-theme
+
+5
+Customize Look and Feel
+lxappearance
+2
+-79
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+windows,preferences,settings,theme,style,appearance
+-pcmanfm-desktop-pref.desktop
+Desktop Preferences
+Change desktop wallpapers and behavior of desktop manager
+user-desktop
+
+5
+
+pcmanfm --desktop-pref
+2
+-79
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-gufw.desktop
+Firewall Configuration
+An easy way to configure your firewall
+gufw
+
+5
+
+gufw
+0
+0
+
+
+GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-lxinput.desktop
+Keyboard and Mouse
+Configure keyboard, mouse, and other input devices
+input-keyboard
+
+5
+
+lxinput
+2
+-79
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-lightdm-settings.desktop
+Login Window
+Configure the login window
+lightdm-settings
+
+5
+
+pkexec lightdm-settings
+2
+0
+
+
+GNOME;GTK;Settings;System;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-msm_notifier_settings.desktop
+Manjaro Notifier Settings
+Graphical Settings for Manjaro Notifier
+preferences-desktop
+
+5
+
+msm_notifier --settings
+0
+0
+
+
+Settings;DesktopSettings;X-LXDE-Settings;X-XFCE-SettingsDialog;X-KDE-Settings;X-XFCE-SystemSettings
+
+-manjaro-settings-manager.desktop
+Manjaro Settings Manager
+Graphical Settings Manager for Manjaro
+preferences-desktop
+
+5
+
+manjaro-settings-manager
+0
+0
+
+
+Settings;DesktopSettings;X-LXDE-Settings;X-KDE-Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-xfce4-power-manager-settings.desktop
+Power Manager
+Settings for the Xfce Power Manager
+xfce4-power-manager-settings
+
+5
+Power Manager
+xfce4-power-manager-settings
+2
+-135
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-libfm-pref-apps.desktop
+Preferred Applications
+Select applications called on click on Web link or e-mail address
+preferences-desktop
+
+5
+
+libfm-pref-apps
+2
+1
+
+
+Settings;DesktopSettings;X-LXDE-Settings;GTK
+
+-exo-preferred-applications.desktop
+Preferred Applications
+Preferred Applications (Web Browser, Mail Reader and Terminal Emulator)
+preferences-desktop-default-applications
+
+5
+
+exo-preferred-applications
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-system-config-printer.desktop
+Print Settings
+Configure printers
+printer
+
+5
+Print Settings
+system-config-printer
+2
+0
+
+
+System;Settings;HardwareSettings;Printing;GTK
+
+-qt5ct.desktop
+Qt5 Settings
+Qt5 Configuration Tool
+preferences-desktop-theme
+
+5
+
+qt5ct
+0
+0
+
+
+Settings;DesktopSettings;Qt
+
+-xscreensaver-properties.desktop
+Screensaver
+Change screensaver properties
+xscreensaver
+
+5
+
+xscreensaver-demo
+0
+-7
+
+
+Settings;DesktopSettings;Security;X-XFCE
+
+-pamac-updater.desktop
+Software Update
+Update software installed on the system
+system-software-update
+
+5
+
+pamac-manager --updates
+2
+0
+
+
+GNOME;GTK;System;Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+
+

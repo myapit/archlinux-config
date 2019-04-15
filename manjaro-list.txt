@@ -1,0 +1,20 @@
+bashrc-manjaro 5.0.002-1
+dmenu-manjaro 4.9-2
+grub-theme-manjaro-dev 18.0-3
+i3status-manjaro 2.12-1
+kvantum-manjaro 0.13.0-1
+manjaro-alsa 2012.11-1
+manjaro-base-skel 20171029-3
+manjaro-browser-settings 20181222-1
+manjaro-firmware 20160419-1
+manjaro-hello 0.6.1-1
+manjaro-hotfixes 2018.08-6
+manjaro-i3-settings 20181031-1
+manjaro-icons 20181011-1
+manjaro-keyring 20180607-1
+manjaro-printer 20170501-1
+manjaro-ranger-settings 20181007-2
+manjaro-release 18.0.4-1
+manjaro-settings-manager-notifier 0.5.5-5
+manjaro-system 20190124-3
+

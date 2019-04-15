@@ -1,0 +1,19 @@
+/bin/sh: ff-theme-util: command not found
+conky: desktop window (417) is root window
+conky: window type - override
+conky: drawing to created window (0x1800001)
+conky: drawing to double buffer
+conky: forked to background, pid is 2294
+i3status: trying to auto-detect output_format setting
+i3status: auto-detected "i3bar"
+
+conky: desktop window (417) is root window
+conky: window type - override
+conky: drawing to created window (0x1e00001)
+conky: drawing to double buffer
+conky: forked to background, pid is 2305
+
+[ 03/12/2019 15:59:07.369 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
+[ 03/12/2019 15:59:07.369 parse_config_libconfig WARN ] "clear-shadow" is removed as an option, and is always enabled now. Consider removing it from your config file
+[ 03/12/2019 15:59:07.369 parse_config_libconfig WARN ] "paint-on-overlay" has been removed as an option, and is enabled whenever possible
+unable to connect to the rxvt-unicode daemon: Connection refused

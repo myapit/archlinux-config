@@ -1,0 +1,35 @@
+/bin/sh: ff-theme-util: command not found
+conky: desktop window (417) is root window
+conky: window type - override
+conky: drawing to created window (0x1400001)
+conky: drawing to double buffer
+i3status: trying to auto-detect output_format setting
+i3status: auto-detected "i3bar"
+conky: forked to background, pid is 2092
+
+[../i3-4.16.1/../i3-4.16.1/i3bar/src/xcb.c:747] ERROR: Error getting _XEMBED_INFO property: error_code 3
+conky: desktop window (417) is root window
+conky: window type - override
+conky: drawing to created window (0x1e00001)
+conky: drawing to double buffer
+conky: forked to background, pid is 2101
+
+unable to connect to the rxvt-unicode daemon: Connection refused
+[ 03/12/2019 15:57:48.303 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
+[ 03/12/2019 15:57:48.303 parse_config_libconfig WARN ] "clear-shadow" is removed as an option, and is always enabled now. Consider removing it from your config file
+[ 03/12/2019 15:57:48.303 parse_config_libconfig WARN ] "paint-on-overlay" has been removed as an option, and is enabled whenever possible
+Exiting due to signal.
+Gdk-Message: 15:59:01.838: volumeicon: Fatal IO error 2 (No such file or directory) on X server :0.
+
+clipit: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Gdk-Message: 15:59:01.842: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+conky: X Error: Display 558033b70d60
+
+Gdk-Message: 15:59:01.846: polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+conky: X Error: Display 55d0ff024590
+
+Gdk-Message: 15:59:01.848: pamac-tray: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+urxvt: X connection to ':0' broken, unable to recover, exiting.
