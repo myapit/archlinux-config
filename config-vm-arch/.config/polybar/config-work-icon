@@ -1,0 +1,173 @@
+;=====================================================
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/jaagr/polybar
+;
+;   The README contains alot of information
+;
+;=====================================================
+
+[colors]
+; Color Theme ==============================
+; Can copy directly from Xresources #defines
+base00 = #2E3440
+base01 = #3B4252
+base02 = #434C5E
+base03 = #4C566A
+base04 = #D8DEE9
+base05 = #E5E9F0
+base06 = #ECEFF4
+base07 = #8FBCBB
+base08 = #88C0D0
+base09 = #81A1C1
+base0A = #5E81AC
+base0B = #BF616A
+base0C = #D08770
+base0D = #EBCB8B
+base0E = #A3BE8C
+base0F = #B48EAD
+; =========================================
+
+[bar/default]
+width = 100%
+height = 32
+radius = 0
+padding = 1
+fixed-center = false
+bottom = false
+
+background = ${colors.base00}
+foreground = ${colors.base05}
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = Homespun TT BRK:style=Regular:size=18;3
+font-1 = Font Awesome 5 Free:style=Regular:size=16;3
+font-2 = Font Awesome 5 Brands:style=Regular:size=16;3
+font-3 = FontAwesome:style=Regular:size=16;3
+
+modules-left = i3
+modules-center = cpu memory
+modules-right = now-playing vpn network battery pulseaudio date time
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+wrapping-scroll = false
+
+ws-icon-1 = "Chromium;"
+ws-icon-2 = "Chat;"
+ws-icon-3 = "Music;"
+ws-icon-0 = "Dev;"
+
+label-mode-foreground = ${colors.base05}
+label-mode-background = ${colors.base00}
+
+; focused = Active workspace on focused monitor
+label-focused = %icon%
+label-focused-foreground = ${colors.base08}
+label-focused-background = ${colors.base00}
+label-focused-padding = 1
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %icon%
+label-unfocused-foreground = ${colors.base05}
+label-unfocused-background = ${colors.base00}
+label-unfocused-padding = 1
+
+; urgent = Workspace with urgency hint set
+label-urgent = %icon%
+label-urgent-background = ${colors.base08}
+label-urgent-padding = 1
+
+[module/cpu]
+type = internal/cpu
+interval = 5
+format = "%{F#edb443}%{F-} <label>"
+format-foreground = ${colors.base05}
+label = %percentage%%
+
+[module/memory]
+type = internal/memory
+interval = 5
+format = "%{F#195466}%{F-} <label>"
+format-foreground = ${colors.base05}
+label = %percentage_used%%
+
+[module/time]
+type = internal/date
+interval = 1
+
+time = %H:%M:%S
+label = %time%
+
+format = "%{F#888ca6}%{F-} <label>"
+format-foreground = ${colors.base05}
+
+[module/date]
+type = internal/date
+interval = 1
+
+date = "%m/%d/%Y"
+label = %date%
+
+format = "%{F#4e5166}%{F-} <label>"
+format-foreground = ${colors.base05}
+
+[module/vpn]
+type = custom/script
+exec = ~/.dotfiles/polybar/scripts/vpn-status
+interval = 5
+
+[module/now-playing]
+type = custom/script
+exec = ~/.dotfiles/polybar/scripts/now-playing
+interval = 1
+
+[module/battery]
+type = internal/battery
+
+battery = BAT0
+adapter = AC
+poll-interval = 5
+time-format = %H:%M
+format-charging = %{F#2aa889}%{F-} <label-charging>
+label-charging = %percentage%%
+format-discharging = <ramp-capacity> <label-discharging>
+label-discharging = %time% (%percentage%%)
+label-full = %{F#2aa889}%{F-} Charged
+ramp-capacity-0 = %{F#c23127}%{F-}
+ramp-capacity-1 = %{F#c23127}%{F-}
+ramp-capacity-2 = %{F#edb443}%{F-}
+ramp-capacity-3 = %{F#edb443}%{F-}
+ramp-capacity-4 = %{F#2aa889}%{F-}
+
+[module/network]
+type = internal/network
+interface = wlp2s0
+interval = 1
+ping-interval = 3
+format-connected = %{F#2aa889}%{F-} <label-connected>
+label-connected = %essid%
+format-disconnected = %{F#d26937}%{F-} <label-disconnected>
+label-disconnected = "Not Connected"
+
+[module/pulseaudio]
+type = internal/pulseaudio
+format-volume = %{F#d26937}<ramp-volume>%{F-} <label-volume>
+label-volume = %percentage%%
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+format-muted = %{F#d26937}%{F-} <label-muted>
+label-muted = Muted
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+; vim:ft=dosini
