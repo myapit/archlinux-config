@@ -1,1 +1,3 @@
-2019/04/26-11:09:39.746 339d Reusing MANIFEST /home/apit/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/04/29-15:09:02.938 2e1 Reusing MANIFEST /home/apit/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/04/29-15:09:02.947 2e1 Recovering log #3
+2019/04/29-15:09:02.953 2e1 Reusing old log /home/apit/.config/chromium/Default/Sync Data/LevelDB/000003.log 
