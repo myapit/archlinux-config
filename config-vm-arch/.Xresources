@@ -43,7 +43,7 @@ URxvt*shading:                        20
 ! URxvt*cursorBlink:                    boolean
 ! URxvt*pointerBlank:                   boolean
 ! URxvt*background:                     color
-URxvt*foreground:                     #eeeeee
+!!!URxvt*foreground:                     #eeeeee
 ! URxvt*color0:                         color
 ! URxvt*color1:                         color
 ! URxvt*color2:                         color
@@ -69,7 +69,7 @@ URxvt*foreground:                     #eeeeee
 ! URxvt*troughColor:                    color
 ! URxvt*highlightColor:                 color
 ! URxvt*highlightTextColor:             color
-! URxvt*cursorColor:                    color
+!!!!URxvt*cursorColor:                    magenta
 ! URxvt*cursorColor2:                   color
 ! URxvt*pointerColor:                   color
 ! URxvt*pointerColor2:                  color
@@ -111,7 +111,13 @@ URxvt*font:                             xft:monospace:size=9
 ! URxvt*secondaryScroll:                boolean
 ! URxvt*perl-lib:                       string
 ! URxvt*perl-eval:                      perl-eval
-URxvt*perl-ext-common:                resize-font
+URxvt*perl-ext-common:                  default,matcher,resize-font
+!# And re-bind some keymappings (if you want, below are the defaults):
+!# URxvt.keysym.C-minus:     resize-font:smaller
+!# URxvt.keysym.C-plus:      resize-font:bigger
+!# URxvt.keysym.C-equal:     resize-font:reset
+!# URxvt.keysym.C-question:  resize-font:show
+
 ! URxvt*perl-ext:                       string
 ! URxvt*iso14755:                       boolean
 ! URxvt*iso14755_52:                    boolean
